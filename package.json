@@ -1,8 +1,13 @@
 {
   "name": "tet-ui-4",
   "version": "1.0.0",
+  "description": "Justin UI React Component Library",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@storybook/addon-actions": "^6.5.13",
@@ -23,9 +28,5 @@
     "@emotion/babel-preset-css-prop": "^11.10.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5"
-  },
-  "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
   }
 }
